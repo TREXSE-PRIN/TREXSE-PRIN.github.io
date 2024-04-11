@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: TREXSE-PRIN project
 email: your-email@domain.com
-author: GitHub User
+author: Juri Di Rocco
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -140,7 +140,7 @@ yat:
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-# night_mode: "auto"
+night_mode: "off"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
@@ -152,12 +152,13 @@ yat:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
+header_pages:
+  - index.html
 #   - archives.html
-#   - categories.html
+  - categories.html
 #   - tags.html
-#   - about.md
+  - about.html
+  - member.html
 
 # Page default value
 # defaults:
